@@ -1,8 +1,8 @@
-package com.dmitrenko.leetcode.foreach;
+package com.dmitrenko.leetcode.minx;
 
 import java.util.List;
 
-public class ForeachService {
+public class MinXService {
 
     public static int minX(List<Integer> arr) {
         for (int x = 0; x <= Integer.MAX_VALUE; x++) {
