@@ -6,7 +6,12 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static com.dmitrenko.leetcode.merchants.domain.TradeStrategy.*;
+import static com.dmitrenko.leetcode.merchants.domain.TradeStrategy.ALTRUIST;
+import static com.dmitrenko.leetcode.merchants.domain.TradeStrategy.QUIRKY;
+import static com.dmitrenko.leetcode.merchants.domain.TradeStrategy.SLY;
+import static com.dmitrenko.leetcode.merchants.domain.TradeStrategy.TRAITOR;
+import static com.dmitrenko.leetcode.merchants.domain.TradeStrategy.UNPREDICTABLE;
+import static com.dmitrenko.leetcode.merchants.domain.TradeStrategy.VINDICTIVE;
 
 public class GuildService {
 
